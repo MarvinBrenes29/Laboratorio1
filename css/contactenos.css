@@ -1,11 +1,20 @@
+body{
+    background-color: #F5F7FC;
+    font-family: 'Open Sans', sans-serif;
+}
 .imagen{
     width: 5rem;
 }
 
 .texto{
     width: 75%;
+    color: #041735;
 }
 
 .texto-seccion{
     width: 20%;
+}
+
+.heading{
+    color:darkmagenta
 }
