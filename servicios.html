@@ -21,11 +21,11 @@
         </a>
     </header>
 
-    <div class="bg-light">
+    <div class="bg-dark">
         <nav class="container navbar navbar-light mt-3 ">
-            <a href="index.html" class="navbar-brand">Inicio</a>
-            <a href="servicios.html" class="navbar-brand">Servicios</a>
-            <a href="contactenos.html" class="navbar-brand">Contacto</a>
+            <a href="index.html" class="texto-nav">Inicio</a>
+            <a href="servicios.html" class="texto-nav activo">Servicios</a>
+            <a href="contactenos.html" class="texto-nav">Contacto</a>
         </nav>
     </div>
 
@@ -62,8 +62,8 @@
             <div class="container text-center mt-5 ">
             
                 <h1 class="heading">Lorem Ipsum</h1>
-                <div class="leAD">
-                    <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. A eius velit, ullam praesentium aliquam
+                <div>
+                    <p class="lead" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. A eius velit, ullam praesentium aliquam
                     nisi <br> dignissimos consequatur sint</p> 
                     <a class="" href="#">Más Detalles</a>                    
                 </div>
@@ -136,11 +136,27 @@
 
     </main>
 
-    <footer class="p-3 bg-dark text-white text-center position-relative">
-        <div class="container">
-            <p class="lead">Front End Store - Todos los derechos Reservados 2022.</p>
-
-        </div>
+    <footer class="footer bg-dark">
+        <div class="footer-grid contenedor">
+            <div class="footer-box">
+                <h3 class="footer-heading">Navegación</h3>
+                <nav class="footer-navegacion">
+                    <a href="index.html" class="footer-link">Inicio</a>
+                    <a href="servicios.html" class="footer-link">Servicios</a>
+                    <a href="contactenos.html" class="footer-link">Contacto</a>
+                </nav>
+                    </div>
+            <div class="footer-box">
+                <h3 class="footer-heading">Nosotros</h3>
+                <p class="footer-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi officiis maxime voluptatibus totam ipsum eaque eos, beatae ad sint exercitationem, tempore blanditiis nulla a voluptate molestias nam et! Sapiente, quidem?</p>
+            </div>
+            <div class="footer-box">
+                <a href="index.html" ">
+                    <img class="footer-logo" src="img/logo.png" alt="imagen logo">
+                </a>
+            </div>
+        </div> <!--.footer__grid-->
+ 
     </footer>
 </body>
 
